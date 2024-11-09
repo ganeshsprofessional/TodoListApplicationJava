@@ -129,8 +129,8 @@ public class Task {
 
     @Override
     public String toString() {
-        return "\n" + id + "\n" + title + "\n" + DateSorting.convertDateToString(dueDate, "dd-MM-yyyy") + "\n" + status
-                + "\n" + projectName + "\n";
+        return id + "," + title + "," + DateSorting.convertDateToString(dueDate, "dd-MM-yyyy") + "," + status
+                + "," + projectName;
     }
 
 }
